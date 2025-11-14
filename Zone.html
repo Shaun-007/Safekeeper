@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <style>
+        h1{
+            color: blue;
+            font-size: 35px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            letter-spacing: 5px;
+            transition: transform 0.4s;
+        }
+        h1:hover{
+            transform:scale(1.15);
+        }
+        .hbar{
+            background-color: rgb(117, 160, 240);
+            padding-top: 1px;
+            padding-bottom: 1px;
+            border: 6px solid blue;
+            border-radius: 30px;
+            filter:opacity(1);
+            background-image:url('grass.jpeg') ;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            
+        }
+        nav{
+            position:fixed;
+            width: 100%;
+        }
+        .outbox{
+            display: flex;
+            gap: 100px;
+            padding-left: 100px;
+            padding-right: 80px;
+            padding-top: 100px;
+        }
+        .main{
+            background-image: url("stadium.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100% ;
+            height: 600px;
+            padding-top: 20px;
+            border: 5px solid blue;
+            border-radius: 15px;
+        }
+        body{
+            background-color: rgb(26, 25, 25);
+        }
+        .inbox{
+            border: 5px solid blue;
+            height: 300px;
+            width: 500px;
+            border-radius: 10px;
+            background-color: rgb(21, 92, 224);
+            transition: transform 0.5s;
+            
+                   
+        }
+        .inbox:hover{
+            transform:scale(1.2) rotate(10deg);
+            background-color:rgb(6, 196, 6);
+            border-color: rgb(15, 238, 15);
+            border-width: 7px;
+        }
+        .V{
+            background-image: url('kohlii.jpeg');
+            background-size: 100% 100%;
+            height: 250px;
+            
+            
+            
+        }
+        .S{
+            background-image: url('sachin.jpeg');
+            background-size: 100% ;
+            height: 250px;
+        }
+        .R{
+            background-image: url('rohit.jpeg');
+            background-size: 100% 100%;
+            height: 250px;
+        }
+         .M{
+            background-image: url('msd.jpeg');
+            background-size: 100% ;
+            height: 250px;
+        }
+        h2{
+            position: relative;
+            bottom: 10px;
+        }
+        #top:hover{
+            color: orange;
+        }
+        .more{
+            border-radius: 50x;
+            width: 180px;height:80px;
+            background-color: blue;
+            border-color: antiquewhite;
+            border-width: 5px;
+            font-size: 30px;
+            font-family:fantasy;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="hbar">
+        <center><h1 id="top">CRICKET CORNER</h1></center>
+    </div>
+    </nav>
+    <br><br><br><br>
+
+    <div class="main">
+        <center><u><h1 style="color:rgb(226, 121, 0);">NOTABLE CRICKETERS OF INDIA</h1></u></center>
+        <div class="outbox">
+            <div class="inbox">
+                <a href="Dhoni.html">
+                <div class="M"></div>
+                
+                <center><h2>M.S Dhoni</h2></center>
+                </a>
+            </div>
+                
+            <div class="inbox">
+                <a href="rohit.html">
+                <div class="R"></div>
+                <center><h2>Rohit Sharma</h2></center>
+                </a>
+            </div>
+                
+            <div class="inbox">
+                <a href="virat.html">
+                <div class="V"></div>
+                <center><h2>Virat Kohli</h2></center>
+                </a>
+            </div>
+            <div class="inbox">
+                <a href="Sachin.html">
+                <div class="S"></div>
+                <center><h2>Sachin Tendulkar</h2></center>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div>
+        <center><a href="reference.html" target="blank"><button class="more">More>></button></a></center>
+    </div>
+    <br><br>
+    
+</body>
+</html>
